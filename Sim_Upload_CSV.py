@@ -44,7 +44,7 @@ def readCSV():
         listOfDicts.append({'imsiRange2':i[1], 'imsiRange1': subtractOne, 'batchNumber': i[3]}) # Creates a list of dictionaries: I chose to use a dictionary to create as the key represent the columns from my csv file
   
     return listOfDicts 
-    # The output of listofDicts looks like this ---> [{'imsiRange2': '311882002117605', 'imsiRange1': 311882002117602, 'batchNumber': 'VST61775'}, {'imsiRange2': '311882002117631', 'imsiRange1': 311882002117626, 'batchNumber': 'VST61776'}]
+    # The output of listofDicts looks like this ---> [{'imsiRange2': 'someNumber', 'imsiRange1': someNumber, 'batchNumber': 'filname'}]
    
     
 
