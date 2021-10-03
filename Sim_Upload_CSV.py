@@ -2,7 +2,6 @@
 import pathlib
 import re
 import csv
-import threading
 
 ## First open the file in Input Location of the File 
 #outputFileName = input("Name of OutPut File ")
