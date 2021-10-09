@@ -82,4 +82,4 @@ class Product:
 
 if __name__ == "__main__":
     test = Product()
-    test.run(500404240)
+    test.run('accountId')
